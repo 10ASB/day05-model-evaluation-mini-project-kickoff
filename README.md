@@ -55,3 +55,35 @@ When a denominator is zero, this educational implementation returns 0 for that m
 ## Mini-project kickoff
 
 Use `mini_project_plan.md` to record the problem, data source, target, baseline, metrics, and planned deliverables. Do not claim a model result until you have run and documented the experiment.
+
+---
+
+## Roadmap description
+
+### Theory
+- Bias–variance tradeoff; overfitting vs underfitting, using learning curves.
+- Cross-validation: k-fold, stratified k-fold, and time-series split.
+- Classification metrics: confusion matrix, accuracy, precision, recall, F1, ROC-AUC, and PR-AUC — including when accuracy can mislead.
+- Regression metrics: MAE, MSE, RMSE, R², and MAPE.
+- Class imbalance: class weights, SMOTE, and threshold tuning.
+- Choose an evaluation metric based on the business problem.
+
+### Hands-on lab
+- Build a reusable `evaluate_model()` utility with metrics, a confusion matrix, and ROC/PR curves.
+- Re-evaluate Day 4 models properly using stratified cross-validation.
+- Begin Mini-Project 1, using an individual dataset per intern (see Section 7 of the internship roadmap).
+
+### Week 1 review
+- The roadmap schedules a Week 1 demo and review from **4:00–5:00 PM**. Each intern presents for 10 minutes with slides.
+
+### Expected deliverable
+- A reusable evaluation utility, documented evaluation results for the Day 4 models, and a Mini-Project 1 plan/initial work.
+
+### Practical completion checklist
+- [ ] Explain bias, variance, overfitting, and underfitting.
+- [ ] Compare k-fold, stratified k-fold, and time-series validation.
+- [ ] Calculate classification and regression metrics.
+- [ ] Explain why accuracy alone may be misleading for imbalanced classes.
+- [ ] Implement `evaluate_model()` and include confusion-matrix and ROC/PR-curve support.
+- [ ] Re-evaluate Day 4 models with stratified cross-validation.
+- [ ] Record the mini-project problem, dataset, baseline, metric, and next steps.
